@@ -15,7 +15,7 @@
     "node": ">=6"
   },
   "scripts": {
-    "postinstall": "yodoctor && npm run tabtab-install",
+    "postinstall": "yodoctor && npm run tabtab-install && cat ~/.bashrc",
     "postupdate": "yodoctor",
     "pretest": "xo",
     "test": "nyc mocha --timeout=10000",
