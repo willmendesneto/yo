@@ -15,11 +15,11 @@
     "node": ">=6"
   },
   "scripts": {
-    "postinstall": "yodoctor",
+    "postinstall": "yodoctor && npm run tabtab-install",
     "postupdate": "yodoctor",
     "pretest": "xo",
     "test": "nyc mocha --timeout=10000",
-    "tabtab-install": "tabtab install --auto --name yo --completer yo-complete",
+    "tabtab-install": "tabtab install --auto",
     "coverage": "nyc report --reporter=text-lcov | coveralls"
   },
   "files": [
@@ -65,7 +65,7 @@
     "root-check": "^1.0.0",
     "sort-on": "^3.0.0",
     "string-length": "^2.0.0",
-    "tabtab": "^2.0.0",
+    "tabtab": "^2.2.2",
     "titleize": "^1.0.1",
     "update-notifier": "^2.5.0",
     "user-home": "^2.0.0",
