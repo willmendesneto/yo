@@ -11,7 +11,7 @@ before_install:
   - npm install --global npm@latest
 install:
   -  npm install -s --no-progress
-before_script:
-  - npm run tabtab-install
+# before_script:
+#   - npm run tabtab-install
 after_success:
   - npm run coverage
