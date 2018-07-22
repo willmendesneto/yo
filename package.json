@@ -65,7 +65,7 @@
     "root-check": "^1.0.0",
     "sort-on": "^3.0.0",
     "string-length": "^2.0.0",
-    "tabtab": "mklabs/tabtab#update",
+    "tabtab": "mklabs/tabtab#3.0.0-alpha",
     "titleize": "^1.0.1",
     "update-notifier": "^2.5.0",
     "user-home": "^2.0.0",
