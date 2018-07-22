@@ -19,8 +19,8 @@
     "postupdate": "yodoctor",
     "pretest": "xo",
     "test": "nyc mocha --timeout=10000",
-    "tabtab-install": "tabtab install --auto",
-    "coverage": "nyc report --reporter=text-lcov | coveralls"
+    "coverage": "nyc report --reporter=text-lcov | coveralls",
+    "bash-quick-test": "DEBUG=tabtab* COMP_CWORD='1' COMP_LINE='yo --' COMP_POINT='5' yo-complete completion -- yo --"
   },
   "files": [
     "lib"
